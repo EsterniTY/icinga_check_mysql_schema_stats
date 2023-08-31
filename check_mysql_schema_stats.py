@@ -8,7 +8,7 @@ import os.path
 import tempfile
 import hashlib
 
-__version__ = '1.0.0'
+__version__ = '2023-08-31.1'
 
 def read_old_data(file): 
     olddata = {}
