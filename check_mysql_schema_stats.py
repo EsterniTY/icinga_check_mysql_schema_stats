@@ -135,9 +135,9 @@ if __name__ == '__main__':
         perfdata.append('%s.__total.udpate=%i;;;' % (args.schema, totals['update']))
         perfdata.append('%s.__total.delete=%i;;;' % (args.schema, totals['delete']))
 
-        print('[%s] %s fetches: %i, inserts: %i, updates: %i, deletes: %i within last %i seconds' % (
+        print('[%s] %s schema fetches: %i, inserts: %i, updates: %i, deletes: %i within last %i seconds' % (
             'OK',
-            'proxy',
+            args.schema,
             totals['fetch'],
             totals['insert'],
             totals['update'],
